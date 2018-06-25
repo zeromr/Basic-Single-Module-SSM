@@ -16,7 +16,6 @@
     <!--版本变量设置 start-->
     <properties>
         <!--架包版本变量 start-->
-
         <!--2016-02-20注释掉代码，切换到spring3试试-->
         <!--mybatis官网看到,如果要使用spring4的话,要用：mybatis-2-spring这个架包,http://blog.mybatis.org/2015/11/spring-4-got-you-down-with-no-ibatis.html-->
         <!--<spring.version>4.0.2.RELEASE</spring.version>-->
@@ -75,7 +74,7 @@
 
         <!--其他变量 start-->
         <war-name.version>ssm</war-name.version>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
 
         <tomcat-port.version>8080</tomcat-port.version>
         <tomcat-uri-encoding.version>UTF-8</tomcat-uri-encoding.version>
@@ -419,6 +418,8 @@
                     <password>admin</password>
                 </configuration>
             </plugin>
+
+            <!--tomcat8插件-->
 
             <!--jetty插件-->
             <!--http://www.eclipse.org/jetty/documentation/9.0.0.M3/jetty-maven-plugin.html-->

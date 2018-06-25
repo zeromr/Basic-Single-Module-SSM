@@ -26,7 +26,7 @@ public class SysUserController {
 	public String showUser(Model model,@PathVariable("userId") Long userId){
 		SysUser user = this.sysUserService.getById(userId);
 		model.addAttribute("user", user);
-		return "showUser";
+ 		return "showUser";
 	}
 	
 	@RequestMapping("/showUserToJSONById/{userId}")
